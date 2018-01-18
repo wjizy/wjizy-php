@@ -1,0 +1,15 @@
+{
+  "name": "wjizy/api",
+  "require": {
+    "nikic/fast-route": "^1.2",
+    "lcobucci/jwt": "^3.2"
+  },
+  "autoload": {
+      "psr-4": {
+        "wjizy\\api\\":"src",
+        "wjizy\\config\\":"config",
+        "wjizy\\lib\\":"lib"
+      },
+      "files":["config/common.php"]
+  }
+}
